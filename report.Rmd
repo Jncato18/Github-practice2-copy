@@ -32,19 +32,19 @@ Distribution3 <- readRDS(
 
 ```{r, random-numbers1-histogram}
 #| fig.cap = "First set of random numbers"
-hist(Distribution1)
+hist(Distribution1, col = "gray25")
 ```
 
 # Distribution 2
 
 ```{r, random-numbers2-histogram}
 #| fig.cap = "Second set of random numbers"
-hist(Distribution2)
+hist(Distribution2, col = "gray25")
 ```
 
 # Distribution 3
 
 ```{r, random-numbers3-histogram}
 #| fig.cap = "Third set of random numbers"
-hist(Distribution3)
+hist(Distribution3, col = "gray25")
 ```
