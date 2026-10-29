@@ -3,25 +3,25 @@ here::i_am(
 )
 
 set.seed(1)
-random_numbers1 <- rnorm(100)
+Distribution1 <- rnorm(100)
 
 saveRDS(
-  random_numbers1,
-  file = here::here("output", "random_numbers1.rds")
+  Distribution1,
+  file = here::here("output", "Distribution1.rds")
 )
 
 set.seed(2)
-random_numbers2 <- rgamma(100, shape = 1)
+Distribution2 <- rgamma(100, shape = 1)
 
 saveRDS(
-  random_numbers2,
-  file = here::here("output", "random_numbers2.rds")
+  Distribution2,
+  file = here::here("output", "Distribution2.rds")
 )
 
 set.seed(3)
-random_numbers3 <- runif(100)
+Distribution3 <- runif(100)
 
 saveRDS(
-  random_numbers3,
-  file = here::here("output", "random_numbers3.rds")
+  Distribution3,
+  file = here::here("output", "Distribution3.rds")
 )
